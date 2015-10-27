@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Contacts] (
+    [Id]    UNIQUEIDENTIFIER CONSTRAINT [DF_Contacts_Id] DEFAULT (newid()) ROWGUIDCOL NOT NULL,
+    [Name]  NVARCHAR (255)   NOT NULL,
+    [Phone] NVARCHAR (255)   NOT NULL,
+    [Email] NVARCHAR (1024)  NOT NULL,
+    CONSTRAINT [PK_Contacts] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
