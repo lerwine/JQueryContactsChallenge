@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="JQueryContactsChallenge" />
+  <setParameter name="JQueryContactsChallengeEntities-Web.config Connection String" value="metadata=res://*/Models.DbModel.csdl|res://*/Models.DbModel.ssdl|res://*/Models.DbModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=LENNYPC\SQLEXPRESS;initial catalog=JQueryContactsChallenge;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" />
+</parameters>

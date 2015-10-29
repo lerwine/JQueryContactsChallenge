@@ -1,0 +1,9 @@
+C:\Users\lerwi_000\documents\visual studio 2013\Projects\JQueryContactsChallenge\JQueryContactsChallengeDb\bin\Debug\JQueryContactsChallengeDb.dacpac
+C:\Users\lerwi_000\documents\visual studio 2013\Projects\JQueryContactsChallenge\JQueryContactsChallengeDb\bin\Debug\JQueryContactsChallengeDb.dll
+C:\Users\lerwi_000\documents\visual studio 2013\Projects\JQueryContactsChallenge\JQueryContactsChallengeDb\bin\Debug\JQueryContactsChallengeDb.pdb
+C:\Users\lerwi_000\documents\visual studio 2013\Projects\JQueryContactsChallenge\JQueryContactsChallengeDb\obj\Debug\Model.xml
+C:\Users\lerwi_000\documents\visual studio 2013\Projects\JQueryContactsChallenge\JQueryContactsChallengeDb\obj\Debug\refactor.xml
+C:\Users\lerwi_000\documents\visual studio 2013\Projects\JQueryContactsChallenge\JQueryContactsChallengeDb\obj\Debug\postdeploy.sql
+C:\Users\lerwi_000\documents\visual studio 2013\Projects\JQueryContactsChallenge\JQueryContactsChallengeDb\obj\Debug\predeploy.sql
+C:\Users\lerwi_000\documents\visual studio 2013\Projects\JQueryContactsChallenge\JQueryContactsChallengeDb\obj\Debug\JQueryContactsChallengeDb.dll
+C:\Users\lerwi_000\documents\visual studio 2013\Projects\JQueryContactsChallenge\JQueryContactsChallengeDb\obj\Debug\JQueryContactsChallengeDb.pdb

@@ -4,4 +4,62 @@
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<ul>
+    <li><strong>JQueryContactsChallenge\</strong>
+        <ul>
+            <li>
+                <strong>Home\</strong>
+                <ul>
+                    <li><strong>Index.cshtml</strong> &mdash; Client-side code.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Controllers\</strong>
+                <ul>
+                    <li><strong>HomeController.cs</strong> &mdash; Server-side code.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Models\</strong>
+                <ul>
+                    <li><strong>DbModel.edmx</strong> &mdash; Entity data model for retrieving data from database.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Deployment\</strong>
+        <ul>
+            <li>
+                <strong>Web\</strong>
+                <ul>
+                    <li><strong>JQueryContactsChallenge.zip</strong> &mdash; Web Deployment Package.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Db\</strong>
+                <ul>
+                    <li><strong>JQueryContactsChallengeDb_Create.sql</strong> &mdash; SQLCMD database creation script.</li>
+                    <li><strong>JQueryContactsChallengeDb.dacpac</strong> &mdash; Data-tier Application File.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>JQueryContactsChallengeDb\</strong>
+        <ul>
+            <li>
+                <strong>dbo\</strong>
+                <ul>
+                    <li>
+                        <strong>Tables\</strong>
+                        <ul>
+                            <li><strong>Contacts.sql</strong> &mdash; Data table definition.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><strong>Script.PostDeployment1.sql</strong> &mdash; Sample data.</li>
+        </ul>
+    </li>
+</ul>

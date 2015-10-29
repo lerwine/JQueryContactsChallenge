@@ -9,6 +9,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQueryContactsChallenge.Tes
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "JQueryContactsChallengeDb", "JQueryContactsChallengeDb\JQueryContactsChallengeDb.sqlproj", "{A7F8EEC7-E31B-470B-AE61-CF720E6944D8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{60558D9B-D997-459A-80A2-C3512D75BE37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{A928F548-B86D-4048-BBFD-B9252740E048}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\Web\JQueryContactsChallenge.deploy-readme.txt = Deployment\Web\JQueryContactsChallenge.deploy-readme.txt
+		Deployment\Web\JQueryContactsChallenge.deploy.cmd = Deployment\Web\JQueryContactsChallenge.deploy.cmd
+		Deployment\Web\JQueryContactsChallenge.SetParameters.xml = Deployment\Web\JQueryContactsChallenge.SetParameters.xml
+		Deployment\Web\JQueryContactsChallenge.SourceManifest.xml = Deployment\Web\JQueryContactsChallenge.SourceManifest.xml
+		Deployment\Web\JQueryContactsChallenge.zip = Deployment\Web\JQueryContactsChallenge.zip
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Db", "Db", "{1544107A-FD61-4DCD-93EC-9F789D5A34B1}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\Db\JQueryContactsChallengeDb.dacpac = Deployment\Db\JQueryContactsChallengeDb.dacpac
+		Deployment\Db\JQueryContactsChallengeDb_Create.sql = Deployment\Db\JQueryContactsChallengeDb_Create.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 4
@@ -47,5 +64,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A928F548-B86D-4048-BBFD-B9252740E048} = {60558D9B-D997-459A-80A2-C3512D75BE37}
+		{1544107A-FD61-4DCD-93EC-9F789D5A34B1} = {60558D9B-D997-459A-80A2-C3512D75BE37}
 	EndGlobalSection
 EndGlobal
